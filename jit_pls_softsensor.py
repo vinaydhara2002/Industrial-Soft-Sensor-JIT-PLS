@@ -266,7 +266,7 @@ if __name__ == "__main__":
 
     print("*"*48+" "*12+"Predicted"+" "*12+"*"*48)
 
-s = 5*2
+s = 5*1
 actual_all = reals_all
 print("Actual vs Smoothed Output Data R²:", round(r2_score(reals_all, actual_all), 4))
 print("\nNo. Of Data Points Predicted:", len(reals_all), "\n")
